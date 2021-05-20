@@ -1,0 +1,3 @@
+# Project exclude paths
+/core/target/
+/gui/target/
