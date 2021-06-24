@@ -67,10 +67,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<mainClass>de.sranko_informatik.si_xml_to_pdf_jar_gui.Application
-					</mainClass>
-				</configuration>
+				<version>2.4.0</version>
 			</plugin>
 		</plugins>
 	</build>
