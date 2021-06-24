@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="core" />
         <module name="gui" />
+        <module name="si-xml-to-pdf-jar-gui" />
+        <module name="si-xml-to-pdf-jar-core" />
         <module name="si-spring-multimodule-webcontent-template-gui" />
         <module name="si-spring-multimodule-webcontent-template-core" />
       </profile>
@@ -17,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="gui" options="-parameters" />
       <module name="si-spring-multimodule-webcontent-template-gui" options="-parameters" />
+      <module name="si-xml-to-pdf-jar-gui" options="-parameters" />
     </option>
   </component>
 </project>
